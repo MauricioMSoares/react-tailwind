@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Petshop Snowball",
+        "image": "/PETSUP-LOGO-ICON.png",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "services": ["bath", "grooming", "vet"]
+    },
+    {
+        "name": "Petmaxi",
+        "image": "/PETSUP-LOGO-ICON.png",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "services": ["bath", "vet"]
+    },
+    {
+        "name": "Petzus",
+        "image": "/PETSUP-LOGO-ICON.png",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "services": ["bath", "grooming", "vet"]
+    },
+    {
+        "name": "Petlove",
+        "image": "/PETSUP-LOGO-ICON.png",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "services": ["bath", "grooming"]
+    },
+    {
+        "name": "Bia's PetCare",
+        "image": "/PETSUP-LOGO-ICON.png",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "services": ["bath", "grooming", "vet"]
+    },
+    {
+        "name": "Petshop Fireball",
+        "image": "/PETSUP-LOGO-ICON.png",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "services": ["grooming", "vet"]
+    }
+]

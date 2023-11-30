@@ -8,13 +8,15 @@ const App = () => {
   const hasUser = Boolean(user)
   return (
     <>
-      <Header user={user} />
-      {
-        hasUser && <PetshopList />
-      }
-      {
-        hasUser || <Form onSubmit={setUser} />
-      }
+      <div className="h-screen">
+        <Header user={user} />
+        {
+          hasUser && <PetshopList />
+        }
+        {
+          hasUser || <Form onSubmit={setUser} />
+        }
+      </div>
     </>
   )
 }

@@ -1,13 +1,13 @@
 const Petshop = ({ name, image, bio, services, alt }) => {
     return (
         <>
-            <div className="p-5 bg-gray-200 dark:bg-gray-700 sm:rounded-xl sm:shadow-lg flex flex-col items-center gap-2">
+            <div className="p-5 bg-gray-200 dark:bg-gray-700 sm:rounded-xl sm:shadow-lg flex flex-col items-center gap-2 sm:hover:shadow-gray-500 sm:hover:dark:shadow-black sm:hover:shadow-lg">
                 <h3 className="text-xl text-petsup_purple dark:text-gray-200 font-bold">{name}</h3>
                 {image && <img className="sm:p-4" src={image} />}
                 {image && alt && <span className="sr-only">{alt}</span>}
                 <div className="hidden w-full flex-row justify-end gap-2 sm:flex">
                     {
-                        services.map(service => <span key={service} className="bg-petsup_orange dark:bg-petsup_purple px-4 py-1 rounded-full dark:text-gray-100 text-xs uppercase font-bold">{service}</span>)
+                        services.map(service => <span key={service} className="bg-petsup_orange dark:bg-petsup_purple px-4 py-1 rounded-full dark:text-gray-100 text-xs uppercase font-bold hover:scale-110">{service}</span>)
                     }
                 </div>
                 <div className="grid gap-1">

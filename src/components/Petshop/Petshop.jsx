@@ -7,7 +7,7 @@ const Petshop = ({ name, image, bio, services, alt }) => {
                 {image && alt && <span className="sr-only">{alt}</span>}
                 <div className="hidden w-full flex-row justify-end gap-2 sm:flex">
                     {
-                        services.map(service => <span key={service} className="bg-petsup_orange dark:bg-petsup_purple px-4 py-1 rounded-full dark:text-gray-100 text-xs uppercase font-bold hover:scale-110">{service}</span>)
+                        services.map(service => <span key={service} className="service-tag">{service}</span>)
                     }
                 </div>
                 <div className="grid gap-1">

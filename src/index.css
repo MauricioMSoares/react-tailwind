@@ -10,14 +10,18 @@
 
 @layer components {
     .petsup-input {
-        @apply w-full max-w-lg dark:bg-gray-100 border-2 rounded-full pl-2 py-1 outline-none placeholder:text-gray-400 placeholder:dark:text-gray-600 placeholder:text-xs placeholder:font-semibold focus:border-2 focus:border-gray-300 focus:dark:border-petsup_purple invalid:focus:border-2 invalid:focus:border-red-400 invalid:focus:dark:border-2 invalid:focus:dark:border-red-400
+        @apply w-full max-w-lg dark:bg-gray-100 border-2 rounded-full pl-2 py-1 outline-none placeholder:text-gray-400 placeholder:dark:text-gray-600 placeholder:text-xs placeholder:font-semibold focus:border-2 focus:border-gray-300 focus:dark:border-petsup_purple invalid:focus:border-2 invalid:focus:border-red-400 invalid:focus:dark:border-2 invalid:focus:dark:border-red-400 caret-petsup_purple
     }
 
     .petsup-button {
-        @apply w-full max-w-sm px-5 py-1 bg-petsup_orange dark:bg-petsup_purple rounded-full dark:text-gray-200 font-semibold hover:animate-pulse hover:shadow-md hover:shadow-gray-500 hover:dark:shadow-black
+        @apply w-full max-w-sm px-5 py-1 bg-petsup_orange dark:bg-petsup_purple rounded-full dark:text-gray-200 font-semibold hover:animate-pulse hover:shadow-md hover:shadow-gray-500 hover:dark:shadow-black hover:-translate-y-1 hover:delay-200
     }
 
     .petshop-card {
         @apply p-5 bg-gray-200 dark:bg-gray-700 sm:rounded-xl sm:shadow-lg flex flex-col items-center gap-2 sm:hover:shadow-gray-500 sm:hover:dark:shadow-black sm:hover:shadow-lg
+    }
+
+    .service-tag {
+        @apply bg-petsup_orange dark:bg-petsup_purple px-4 py-1 rounded-full dark:text-gray-100 text-xs uppercase font-bold hover:scale-110 hover:bg-gradient-to-r hover:from-gray-600
     }
 }
